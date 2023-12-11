@@ -51,17 +51,29 @@
 }
 .btn_add{
   padding: 1px 44px 0px 35px;
-  border: 1px solid black;
-  height: 30px
+  border: 1px solid white;
+  color: white;
+  height: 30px;
+  font-weight: bold;
+  width: 129px;
 }
 .height{
   /* width: 250px; */
   height: 33px;
 }
 .bg_clr{
-  background-color: #16c188;
+  /* background-color: #16c188; */
+  background-color: #ac16c1;
+
 }
 .bg{
-  background-color: #16c188;
+  /* background-color: #16c188; */
+  background-color: #ac16c1;
   border-radius: 20px;
+}
+label{
+  color: white;
+}
+.box h5,.box h6{
+  color: white;
 }

@@ -55,11 +55,11 @@ const Billing = () => {
                     {" "}
                     Refresh{" "}
                   </button>
-                  <button type="submit" class="btn btn_add ms-2">
+                  <button type="submit" class="btn btn_add mt-2">
                     {" "}
                     Save{" "}
                   </button>
-                  <button type="submit" class="btn btn_add ms-2 mt-2">
+                  <button type="submit" class="btn btn_add  mt-2">
                     {" "}
                     New{" "}
                   </button>

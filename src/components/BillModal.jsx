@@ -11,7 +11,7 @@ function Example() {
 
   return (
     <>
-      <Button variant="success" className='rounded' onClick={handleShow}>
+      <Button variant="primary" className='rounded' onClick={handleShow}>
        Invoice modal
       </Button>
 
@@ -22,13 +22,18 @@ function Example() {
         <Modal.Body>
 
 
-    <Table striped bordered hover size="lg" responsive>
+        <Table striped bordered hover size="lg" responsive>
       <thead className='bg'>
         <tr>
           <th>#</th>
           <th>First Name</th>
           <th>Last Name</th>
           <th>Username</th>
+          <th>Username</th>
+
+          <th>Username</th>
+          <th>Username</th>
+
 
 
         </tr>
@@ -39,16 +44,33 @@ function Example() {
           <td>Mark</td>
           <td>Otto</td>
           <td>@mdo</td>
+          <td>@mdo</td>
+
+          <td>@mdo</td>
+          <td>@mdo</td>
+
         </tr>
         <tr>
           <td>2</td>
           <td>Jacob</td>
           <td>Thornton</td>
           <td>@fat</td>
+          <td>@mdo</td>
+
+          <td>@mdo</td>
+          <td>@mdo</td>
+
         </tr>
         <tr>
           <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
+          <td>@mdo</td>
+
+          <td>@mdo</td>
+
+          <td>@mdo</td>
+          <td>@mdo</td>
+          <td>@mdo</td>
+
           <td>@twitter</td>
         </tr>
       </tbody>
